@@ -1,0 +1,97 @@
+ul{
+    list-style-type: none;
+    font-weight: bold;
+}
+
+#title{
+    text-align: center;
+    font-family:  "Courier New", monospace;
+    font-size: 80px;
+    color: #006400;
+}
+
+#quote{
+    text-align: center;
+    color: #006400;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#description{
+    text-align: center;
+    color: #006400;
+}
+
+body{
+    background-color: #8fbc8f;
+    font-family: "Courier New", monospace;
+    color: #006400;
+}
+
+#scheduleSubmit{
+    font-family: "Courier New", monospace;
+    border: 10 px solid white;
+    background-color: #FFB6C1;
+    border-radius: 12px;
+    color: #C71585;
+}
+
+#deleteBtn{
+    font-family: "Courier New", monospace;
+    background-color: #FFB6C1;
+    border-radius: 12px;
+    color: #C71585;
+}
+
+#timerBtn{
+    font-family: "Courier New", monospace;
+    background-color: #FFB6C1;
+    border-radius: 12px;
+    color: #C71585;
+
+}
+
+#quoteBox{
+    border: 5px solid white;
+    width: 1000;
+    margin: 10px 10px 10px 10px;
+    border-radius: 12px;
+}
+
+#logBox{
+    border: 5px solid white;
+    margin: 10px 10px 10px 10px;
+    width: 600;
+    border-radius: 12px;
+}
+
+#timerSet{
+    border-radius: 10px;
+}
+
+#time{
+    border-radius: 10px;
+
+}
+
+#activity{
+    border-radius: 10px;
+}
+
+#deleteSchedule{
+    border-radius: 10px;
+}
+
+#timeTitle, #activityTitle, #time, #activity{
+    display: inline-block;
+    margin-right: 2px;
+}
+
+#deleteTitle, #deleteSchedule, #deleteBtn{
+    display: inline-block;
+    margin-right: 2px;
+}

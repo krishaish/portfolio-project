@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "portfolioproject.css">
+    <title>Study Nook</title>
+</head>
+<body>
+    <h1 id = "title">Study Nook</h1>
+    <p id = "description">A cozy nook to study in.</p>
+    <img src = "cute.jpg" alt = "cozy" class = "center" height = 400 width = 700>
+    <p>Image citation: Takai, Shinichi. “紅の豚 - スタジオジブリ｜studio Ghibli.” スタジオジブリ ホーム, STUDIO GHIBLI Inc., 18 July 1992, www.ghibli.jp/works/porco/. Accessed 19 Sept. 2024. </p>
+    <div id = "quoteBox">
+        <h1 id = "quote">Quote of the Day</h1>
+    </div>
+
+    <div id = "timerBox" class = "container-fluid">
+        <h2>Set a timer to focus. Enter time in terms of minutes in input box(ex. 30 sec = 0.5 min).</h1>
+    <input type = "text" id = "timerSet">
+    <button type = "button" id = "timerBtn" onclick = "setAStudyTimer()">Click to set a timer</button>
+    </div>
+    <div id = "scheduleBox" class = "container-fluid">
+        <h2>Log your schedule for the day.</h2>
+        <ul id = "timeTitle">Time of activity(In this format: 12 AM): </ul>
+        <input type = "text" id = "time">
+        <ul id = "activityTitle">Activity: </ul>
+        <input type = "text" id = "activity">
+        <button type = "button" id = "scheduleSubmit" onclick = "addToLog()">Add to Schedule</button>
+        <br>
+        <ul id = "deleteTitle">Delete all events at this time: </ul>
+        <input type = "text" id = "deleteSchedule">
+        <button type = "button" id = "deleteBtn" onclick = "deleteFromLog()">Delete from schedule</button>
+    </div> 
+    <ul id = "12AM">
+        <li>12 AM</li>
+    </ul>
+    <ul id = "1AM">
+        <li>1 AM</li>
+    </ul>
+    <ul id = "2AM">
+        <li>2 AM</li>
+    </ul>
+    <ul id = "3AM">
+        <li>3 AM</li>
+    </ul>
+    <ul id = "4AM">
+        <li>4 AM</li>
+    </ul>
+    <ul id = "5AM">
+        <li>5 AM</li>
+    </ul>
+    <ul id = "6AM">
+        <li>6 AM</li>
+    </ul>
+    <ul id = "7AM">
+        <li>7 AM</li>
+    </ul>
+    <ul id = "8AM">
+        <li>8 AM</li>
+    </ul>
+    <ul id = "9AM">
+        <li>9 AM</li>
+    </ul>
+    <ul id = "10AM">
+        <li>10 AM</li>
+    </ul>
+    <ul id = "11AM">
+        <li>11 AM</li>
+    </ul>
+    <ul id = "12PM">
+        <li>12 PM</li>
+    </ul>
+    <ul id = "1PM">
+        <li>1 PM</li>
+    </ul>
+    <ul id = "2PM">
+        <li>2 PM</li>
+    </ul>
+    <ul id = "3PM">
+        <li>3 PM</li>
+    </ul>
+    <ul id = "4PM">
+        <li>4 PM</li>
+    </ul>
+    <ul id = "5PM">
+        <li>5 PM</li>
+    </ul>
+    <ul id = "6PM">
+        <li>6 PM</li>
+    </ul>
+    <ul id = "7PM">
+        <li>7 PM</li>
+    </ul>
+    <ul id = "8PM">
+        <li>8 PM</li>
+    </ul>
+    <ul id = "9PM">
+        <li>9 PM</li>
+    </ul>
+    <ul id = "10PM">
+        <li>10 PM</li>
+    </ul>
+    <ul id = "11PM">
+        <li>11 PM</li>
+    </ul>
+    
+    <script src = "portfolio-project.js"></script>
+</body>
+</html>
